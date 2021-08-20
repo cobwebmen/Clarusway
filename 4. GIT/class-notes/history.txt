@@ -1,0 +1,61 @@
+    1  git status
+    2  git init
+    3  git add .
+    4  git status
+    5  git commit -m "m1"
+    6  git log
+    7  git status-main.txt oluştur
+    8  git add main.txt
+    9  git commit -m "m2"
+   10  git log
+   11  git status - coin.txtx dosyası oluştur
+   12  git add coin.txt
+   13  git commit -m "m3"
+   14  git log
+   15  git branch time
+   16  git log
+   17  git add .
+   18  git commit -m "m4"
+   19  git log
+   20  git checkout time
+   21  git log
+   23  git checkout time
+   24  git add .
+   25  git commit -m "T1"
+   26  git log
+   27  git checkout master
+   28  git log
+   29  git branch web
+   31  git branch --l
+   32  git checkout web
+   33  git log
+   34  git branch -d list
+   35  git log
+   36  git checkout time
+   37  git log
+   39  git checkout web- indeks.html
+   40  git add .
+   41  git commit -m "w1"
+   42  git log
+   43  git checkout master
+   44  git log
+   45  git checkout master
+   46  git status
+   47  git add .
+   48  git commit -m "m5"
+   49  git log
+   50  git checkout time
+   51  git checkout master
+   52  git merge web
+   53  git log
+   54  git merge time
+   55  git log
+   57  git log --all --decorate --graph
+   58  git branch -d web
+   59  git branch -d time
+   60  git log --all --decorate --graph
+   61  git log
+   62  git branch -l
+   63  git log --all --decorate --graph-q ile çıkabiliriz
+   
+   

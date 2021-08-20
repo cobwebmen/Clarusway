@@ -1,0 +1,111 @@
+OUTPUT 'What is your name?'
+INPUT user inputs his/her name
+STORE the user's input in the name variable
+OUTPUT 'Hello' + name
+OUTPUT 'How old are you?'
+INPUT user inputs his/her age
+STORE the user's input in the age variable
+IF age >= 70 THEN
+    OUTPUT 'You are aged to perfection!'
+ELSE
+    OUTPUT 'You are a spring chicken'
+
+
+Begin
+INPUT hours
+INPUT rate
+pay = hours * rate
+OUTPUT pay
+End
+
+
+Begin
+INPUT hours, rate
+IF hours < 40
+THEN
+    pay = hours * rate
+ELSE
+    pay = 40 * rate + (hours - 40) * rate *1.5
+OUTPUT pay
+End
+
+
+Assignment: ← or :=
+    Example: c ← 3, c := 2 
+Comparison: =, ≠, <, >, ≤, ≥
+Arithmetic: +, −, ×, /, mod
+Logical: and, or
+
+START, BEGIN: This is the start of your pseudocode.
+INPUT: This is data retrieved from the user through the input device.
+READ, GET: This is used when reading data from a data file.
+PRINT, DISPLAY, SHOW, OUTPUT: This will show your output to a screen.
+COMPUTE, CALCULATE: To calculate the result of the expression.
+SET, INIT: To initialize values
+INCREMENT, BUMP: To increase the value of a variable
+DECREMENT: To reduce the value of a variable
+END: This is the end of your pseudocode
+
+
+IF you are happy
+   THEN smile
+ENDIF
+
+
+
+IF you are happy 
+   THEN smile
+ELSE
+    frown
+ENDIF
+
+
+IF you are happy 
+   THEN smile
+ELSE IF you are sad
+    THEN frown
+ELSE
+    keep face plain
+ENDIF
+
+
+
+INPUT color
+CASE color of
+    red: PRINT "red"
+    green: PRINT "green"
+    blue: PRINT "blue"
+OTHERS
+    PRINT "Please enter a value color"
+ENDCASE
+
+
+FOR every month in a year
+    Compute number of days
+ENDFOR
+
+
+PRECONDITION: variable X is equal to 1
+WHILE Population < Limit
+    Compute Population as Population + Births — Deaths
+ENDWHILE
+
+call: clear monitör
+
+
+
+PROGRAM makeacupoftea
+
+
+END
+
+
+
+BEGIN 
+    statements 
+EXCEPTION 
+    WHEN exception type 
+        statements to handle exception
+    WHEN another exception type 
+        statements to handle exception
+END

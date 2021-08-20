@@ -1,0 +1,659 @@
+  636  cd
+  637  mkdir CLARUSMOTORS
+  638  ls
+  639  cd CLARUSMOTORS/
+  640  ls -l
+  641  mkdir GROUND SEA AIR
+  642  ls
+  643  cd GROUND/
+  644  ls -al
+  645  mkdir Highway Railway
+  646  ls
+  647  cd ../SEA/
+  648  pwd
+  649  ls -al
+  650  cd ../AIR
+  651  pwd
+  652  ls -al
+  653  cd ../GROUND/Highway/
+  654  pwd
+  655  ls -l
+  656  touch car motorbike bicycle
+  657  ls -l
+  658  echo "GROUND_vehicle 2.0 TDI" > car 
+  659  cat car
+  660  echo "GROUND_vehicle 0.9 SI" > motorbike
+  661  echo "GROUND_vehicle Feet" > bicycle
+  662  ls -l
+  663  history
+  664  touch amphibicar
+  665  vi amphibicar 
+  666  vi amphibicar
+  667  explorer.exe .
+  668  history
+  669  tree
+  670  cd ~/CLARUSMOTORS/
+  671  tree
+  672  cd GROUND/Highway/
+  673  chmod 660 amphibicar 
+  674  ls -l
+  675  nano clarusvehicle
+  676  ls
+  677  nano clarusvehicle 
+  678  cat clarusvehicle 
+  679  chmod 640 clarusvehicle 
+  680  ls -l
+  681  cd ../Railway/
+  682  pwdd
+  683  pwd
+  684  touch bullet_train electric_train steam_train
+  685  ls -l
+  686  cd ../../SEA
+  687  LS
+  688  ls
+  689  echo "SEA_vehicle-4250 HP" > ship
+  690  vi seaplane
+  691  ls
+  692  cp ../GROUND/Highway/amphibicar .
+  693  ls
+  694  cp ../GROUND/Highway/clarusvehicle .
+  695  ll
+  696  cd ../AIR/
+  697  ls
+  698  pwd
+  699  touch plane helicopter
+  700  ls
+  701  echo "AIR_vehicle 2000HP" > plane 
+  702  cat plane 
+  703  cp ../GROUND/Highway/clarusvehicle .
+  704  cp ../SEA/seaplane .
+  705  ls
+  706  cd ..
+  707  pwd
+  708  sudo apt update
+  709  tree
+  710  history
+  711  clear
+  712  history > history.txt
+  713  explorer.exe .
+  714  sudo apt install tree -y
+  715  nano new_file
+  716  explorer.exe .
+  717  sudo apt install python3 -y
+  718  python3 ./Flask_Exchange_Calculator/app/app.py 
+  719  pip3 install flask
+  720  sudo apt install python3-pip
+  721  python3
+  722  sudo apt install pip
+  723  sudo apt install pip3
+  724  sudo apt install python3-flask
+  725  python3 ./Flask_Exchange_Calculator/app/app.py 
+  726  sudo python3 ./Flask_Exchange_Calculator/app/app.py 
+  727  git
+  728  mkdir working
+  729  mv -r Flask_Exchange_Calculator/ working/
+  730  mv Flask_Exchange_Calculator/ working/
+  731  ls working/
+  732  cd working/
+  733  ll Flask_Exchange_Calculator/
+  734  git clone https://github.com/martinfade/Flask_Exchange.git
+  735  ll
+  736  git add .
+  737  cd Flask_Exchange
+  738  git add .
+  739  git commit -m "update"
+  740  git config --global user.name "martinfade"
+  741  git config --global user.email "martin_fade@clarusway.com"
+  742  git commit -m "update"
+  743  git push origin 
+  744  ssh -i ../../.ssh/devops.pem ec2-user@54.224.85.128
+  745  sudo chmod 400 ../../.ssh/devops.pem
+  746  ssh -i ../../.ssh/devops.pem ec2-user@54.224.85.128
+  747  cd
+  748  cd wo
+  749  cd working/
+  750  git clone https://github.com/martinfade/todo-app-node-project-.git
+  751  ssh -i ../../.ssh/devops.pem ec2-user@54.224.85.128
+  752  sudo ssh -i ../../.ssh/devops.pem ec2-user@54.224.85.128
+  753  cd -
+  754  sudo ssh -i ./.ssh/devops.pem ec2-user@54.224.85.128
+  755  explorer.exe .
+  756  cd working/
+  757  git clone https://github.com/martinfade/hello_world.git
+  758  cd hello_world/
+  759  ll
+  760  python3 app/app.py 
+  761  sudo python3 app/app.py 
+  762  git pull origin HEAD 
+  763  git add .
+  764  git commit -m "update"
+  765  git push origin 
+  766  git pull origin 
+  767  sudo ssh -i ../../.ssh/devops.pem ec2-user@18.204.226.108
+  768  git add .
+  769  git commit -m "update"
+  770  git push origin 
+  771  sudo ssh -i ../../.ssh/devops.pem ec2-user@18.204.226.108
+  772  git push origin 
+  773  git add .
+  774  git commit -m "f"
+  775  git push origin 
+  776  git pull origin 
+  777  sudo ssh -i ../../.ssh/devops.pem ec2-user@18.204.226.108
+  778  explorer.exe .
+  779  git clone https://github.com/martinfade/jenkins-pipeline-for-phonebook-app.git
+  780  cd working/
+  781  cd jenkins-pipeline-for-phonebook-app/
+  782  clear
+  783  git add .
+  784  git commit -m "update"
+  785  git push origin 
+  786  pwd
+  787  apt install tree
+  788  sudo apt install tree
+  789  pwd
+  790  ls
+  791  ll
+  792  cd working/
+  793  clear
+  794  explorer.exe .
+  795  pwd
+  796  cd
+  797  ll
+  798  cd /
+  799  cd mnt/
+  800  ls
+  801  cd c/Users/DevOps/Desktop/
+  802  cd
+  803  clear
+  804  pwd
+  805  explorer.exe .
+  806  ls
+  807  pwd
+  808  ls -l
+  809  ls -a
+  810  ls
+  811  ls -l
+  812  ls -a
+  813  ls -al
+  814  pwd
+  815  cd working/
+  816  pwd
+  817  cd ..
+  818  cd /
+  819  ls
+  820  pwd
+  821  cd -
+  822  pwd
+  823  cd /
+  824  ls
+  825  cd bin
+  826  ls
+  827  cd X11/
+  828  cd ~/working/
+  829  pwd
+  830  cd
+  831  mkdir Linux_Lesson
+  832  ls /
+  833  rmdir Linux_Lesson/
+  834  rmdir yeni_klasör/
+  835  rmdir working/
+  836  touch yenidosya2
+  837  touch yenidosya3.martin
+  838  rm yenidosya1.txt 
+  839  rm yenidosya2 yenidosya3.martin 
+  840  touch newfile1
+  841  cp newfile1 working/
+  842  pwd
+  843  mkdir linux_lesson
+  844  cd linux_lesson/
+  845  mkdir folder1 folder2
+  846  touch folder1/newfile
+  847  cp folder1/newfile folder2
+  848  cd folder1
+  849  cp newfile ../folder2/newfile_copy
+  850  pwd
+  851  mv newfile_copy ../folder2/newfile_moved
+  852  pwd
+  853  mv yenidosya.txt ../folder2
+  854  cd ../folder2
+  855  ls
+  856  mv yenidosya.txt yenidosya_renamed.txt
+  857  ls
+  858  pwd
+  859  cat yenidosya.txt 
+  860  echo test
+  861  echo "merhaba dünya"
+  862  echo "martin" > yenidosya.txt 
+  863  echo "martin" >> yenidosya.txt 
+  864  ls
+  865  touch Newfile
+  866  ls
+  867  touch file1 file{1..10}
+  868  touch asd{1..5}
+  869  ls *3
+  870  touch *e*
+  871  touch ?*e*
+  872  touch ?*e*clear
+  873  ls *e*
+  874  touch asdf{1..20}
+  875  ls *f*2
+  876  ls *f*2*
+  877  ls f?le*
+  878  ls ?????
+  879  ls ??????
+  880  ls ???????
+  881  ls ????
+  882  clear
+  883  cd
+  884  mkdir clarusway
+  885  ls
+  886  pwd
+  887  cd clarusway/
+  888  mkdir lessons materials
+  889  ls
+  890  touch lessons/linux.txt
+  891  cat linux.txt
+  892  cat lessons/linux.txt
+  893  echo "I love linux" > lessons/linux.txt 
+  894  echo "I can create a website" > lessons/html.txt
+  895  cd materials
+  896  echo "pre-class" > lms.txt
+  897  touch try-it.txt
+  898  ls
+  899  cat try-it.txt
+  900  echo "post-class" > try-it.txt 
+  901  cat try-it.txt 
+  902  ls
+  903  ls -al
+  904  pwd
+  905  cp ../lessons/linux.txt .
+  906  mv linux.txt linux_renamed.txt
+  907  sudo su
+  908  users
+  909  head --help
+  910  man cd
+  911  cd --help
+  912  info cd
+  913  pwd
+  914  whoami
+  915  hostname
+  916  hostname -i
+  917  ls
+  918  ls -l
+  919  ls -a
+  920  ls -a -l
+  921  ls -al
+  922  ls
+  923  cd clarusway/
+  924  cd ..
+  925  cd clarusway/
+  926  pwd
+  927  cd ../..
+  928  pwd
+  929  cd /
+  930  ls
+  931  cd ~
+  932  mkdir linux_lesson_3
+  933  ls
+  934  cd linux_lesson_3/
+  935  mkdir new_directory
+  936  rmdir new_directory/
+  937  pwd
+  938  ls
+  939  ls -al
+  940  touch new_file1.txt
+  941  ls
+  942  echo "hello world" > new_file2.txt
+  943  ls
+  944  echo > new_file3.txt
+  945  ls
+  946  cat > new_file4.txt
+  947  cat > new_file5.txt
+  948  ls
+  949  > new_file6.txt
+  950  ls
+  951  rm new_file6.txt 
+  952  ls
+  953  mkdir new_folder
+  954  ls
+  955  touch new_folder/yeni_dosya.mp4
+  956  ls new_folder/
+  957  rmdir new_folder/
+  958  rm new_folder/
+  959  rm -r new_folder/
+  960  ls
+  961  mkdir new_folder
+  962  cp new_file5.txt new_folder/
+  963  ls new_folder/
+  964  cp new_file5.txt new_folder/new_file5_copy.txt 
+  965  ls new_folder/
+  966  cd ..
+  967  pwd
+  968  ls
+  969  cp linux_lesson_3/new_file4.txt linux_lesson_3/new_folder/new_file4_copy.jpeg
+  970  ls linux_lesson_3/new_folder/
+  971  cd linux_lesson_3/
+  972  ls
+  973  mv new_file2.txt new_folder/
+  974  ls new_folder/
+  975  ls
+  976  mv new_folder/new_file2.txt new_folder/.new_file2_hidden.txt
+  977  ls new_folder/
+  978  ls -a new_folder/
+  979  ls
+  980  cat new_file5.txt 
+  981  cat new_file4.txt 
+  982  echo merhaba
+  983  echo "hello world"
+  984  echo "clarusway" >> new_file4.txt 
+  985  cat new_file4.txt 
+  986  echo "linux lesson" > new_file4.txt 
+  987  cat new_file4.txt 
+  988  cat >> new_file4.txt 
+  989  cat new_file4.txt 
+  990  cat > new_file4.txt 
+  991  cat new_file4.txt 
+  992  cat > istiklal.txt
+  993  cat istiklal.txt 
+  994  explorer.exe .
+  995  head istiklal.txt 
+  996  tail istiklal.txt 
+  997  head -3 istiklal.txt 
+  998  head -n 3 istiklal.txt 
+  999  tail -4 istiklal.txt 
+ 1000  tail -12 istiklal.txt 
+ 1001  head istiklal.txt 
+ 1002  head -5 istiklal.txt 
+ 1003  mkdir folder2
+ 1004  cd folder2/
+ 1005  touch {a..d}{1..20}.txt
+ 1006  ls
+ 1007  rm *{1..9}*
+ 1008  rm *[1-9]*
+ 1009  rm *[19]*
+ 1010  rm [19]
+ 1011  clear
+ 1012  ls
+ 1013  touch {a..c}{1..20}{x..z}
+ 1014  ls
+ 1015  ls a*x
+ 1016  ls ???
+ 1017  ls ????
+ 1018  ls *a*1*
+ 1019  ls *a?1*
+ 1020  ls
+ 1021  cd ..
+ 1022  pwd
+ 1023  ls
+ 1024  rm -rf folder2/
+ 1025  ls
+ 1026  mv new_file5.txt .new_file5.txt
+ 1027  ls
+ 1028  ls -a
+ 1029  history
+ 1030  history > history.txt
+ 1031  ls 
+ 1032  man ls
+ 1033  man mkdir
+ 1034  mkdir -pv new1/new2
+ 1035  ls new1/
+ 1036  mkdir -v new1/new2
+ 1037  mkdir new3/new4
+ 1038  info ls
+ 1039  mkdir --help
+ 1040  ls --help
+ 1041  cat istiklal.txt 
+ 1042  clear
+ 1043  more istiklal.txt 
+ 1044  less istiklal.txt 
+ 1045  cd /mnt/c/Users/DevOps/hands-on1/my-second-project/
+ 1046  git log
+ 1047  ls
+ 1048  git checkout master
+ 1049  git checkout -b test 5a20338
+ 1050  git checkout master
+ 1051  git branch -d test 
+ 1052  ls
+ 1053  git log
+ 1054  git commit 5a2033
+ 1055  git checkout 5a2033
+ 1056  tamam hocam
+ 1057  git status
+ 1058  git add .
+ 1059  git commit -m "test"
+ 1060  git log
+ 1061  git checkout 5a203
+ 1062  ll
+ 1063  ssh alice@88.230.55.248
+ 1064  sudo su
+ 1065  users
+ 1066  /home
+ 1067  cd /home
+ 1068  ls
+ 1069  cd
+ 1070  clear
+ 1071  ls -l
+ 1072  su
+ 1073  cd /
+ 1074  ls
+ 1075  ls -l
+ 1076  cd 
+ 1077  cd ..
+ 1078  ls
+ 1079  cd /root
+ 1080  cd ~ 
+ 1081  pwd
+ 1082  sudo su
+ 1083  cd /
+ 1084  ls -l
+ 1085  cd bin
+ 1086  ls
+ 1087  cd
+ 1088  cd ..
+ 1089  ls
+ 1090  cd /
+ 1091  ls
+ 1092  ls -l
+ 1093  sudo su
+ 1094  su
+ 1095  clear
+ 1096  user
+ 1097  ls /etc
+ 1098  ls /etc/pass*
+ 1099  tail /etc/passwd
+ 1100  clear
+ 1101  ls -l
+ 1102  clear
+ 1103  mkdir permissions_lesson
+ 1104  cd permissions_lesson/
+ 1105  touch cas.txt
+ 1106  ls
+ 1107  ls -l
+ 1108  chmod u=rwx,g=-,o=- cas.txt 
+ 1109  ls -l
+ 1110  chmod --help
+ 1111  chmod u=rwx,g=-,o=- cas.txt clear
+ 1112  clear
+ 1113  ls -l
+ 1114  touch html.txt
+ 1115  chmod u=-,g=rwx,o=- html.txt 
+ 1116  ls -l
+ 1117  touch java.txt
+ 1118  ls
+ 1119  ls -l
+ 1120  chmod u=-,g=-,o=rwx java.txt 
+ 1121  ll
+ 1122  touch js.js
+ 1123  chmod a=rwx js.js 
+ 1124  ls -l
+ 1125  touch l.txt
+ 1126  chmod ugo=r l.txt 
+ 1127  ls -l
+ 1128  rm *
+ 1129  ls
+ 1130  touch cas.txt html.txt java.txt js.txt k.txt l.txt
+ 1131  ls -l
+ 1132  chmod 700 cas.txt
+ 1133  ls -l
+ 1134  chmod -v 070 html.txt 
+ 1135  clear
+ 1136  chmod 007 java.txt
+ 1137  ls -l
+ 1138  chmod 777 js.txt 
+ 1139  ll
+ 1140  chmod 761 k.txt
+ 1141  chmod 444 l.txt 
+ 1142  ll
+ 1143  chmod u=rwx l.txt
+ 1144  ls -l
+ 1145  chmod u-x,g+w cas.txt
+ 1146  ls -l
+ 1147  chmod a-x js.txt 
+ 1148  ls -l
+ 1149  chmod a-2 js.txt 
+ 1150  ssh alice@88.230.55.248
+ 1151  apt update ssh
+ 1152  apt update
+ 1153  sudo apt update
+ 1154  explorer.exxe .
+ 1155  explorer.exe .
+ 1156  ssh -i .ssh/sshkey.pem ec2-user@44.192.11.162
+ 1157  clear
+ 1158  ping clarusway.com
+ 1159  ping google.com
+ 1160  clear
+ 1161  ping google.com
+ 1162  ping aa
+ 1163  ping aafashl.com
+ 1164  ssh alice@host-1-129.linuxzoo.net
+ 1165  clear
+ 1166  ssh alice@host-1-129.linuxzoo.net
+ 1167  ssh -i .ssh/sshkey.pem ec2-user@44.192.11.162
+ 1168  ls -l .ssh/sshkey.pem
+ 1169  chmod 400 .ssh/sshkey.pem
+ 1170  ssh -i .ssh/sshkey.pem ec2-user@44.192.11.162
+ 1171  ssh alice@host-1-129.linuxzoo.net
+ 1172  ssh alice@146.176.166.1
+ 1173  ls
+ 1174  cd permissions_lesson/
+ 1175  ll
+ 1176  chmod u+x cas.txt 
+ 1177  ll
+ 1178  chmod a-rwx,u+r cas.txt 
+ 1179  ll
+ 1180  cd
+ 1181  pwd
+ 1182  cd ..
+ 1183  pwd
+ 1184  ls -l
+ 1185  cd test/
+ 1186  touch new
+ 1187  sudo touch new
+ 1188  ll
+ 1189  cd
+ 1190  su
+ 1191  cd ..
+ 1192  ls
+ 1193  ll
+ 1194  tail /etc/passwd
+ 1195  su new_user
+ 1196  cd /
+ 1197  ls
+ 1198  ll
+ 1199  sudo vi /etc/passwd
+ 1200  su new_user
+ 1201  su
+ 1202  cd /mnt/c/Users/DevOps/git-lesson/python-project/
+ 1203  git push
+ 1204  ll
+ 1205  cd working/
+ 1206  ll
+ 1207  cd /mnt/c/Users/DevOps/Desktop/linux-lesson/
+ 1208  ll
+ 1209  vi istiklal.txt 
+ 1210  nano /mnt/c/Users/DevOps/Desktop/linux-lesson/
+ 1211  nano /mnt/c/Users/DevOps/Desktop/linux-lesson/istiklal.txt 
+ 1212  mkdir linux-lesson
+ 1213  cd linux-lesson/
+ 1214  touch file.txt
+ 1215  ls
+ 1216  explorer.exe .
+ 1217  vim
+ 1218  cat file.txt 
+ 1219  vim file.txt
+ 1220  vim yenidosya.txt
+ 1221  ls
+ 1222  nano file.txt 
+ 1223  cd
+ 1224  ll
+ 1225  ls clarusway/
+ 1226  ll
+ 1227  clear
+ 1228  pwd
+ 1229  mkdir CLARUSMOTORS
+ 1230  cd CLARUSMOTORS/
+ 1231  ls -la
+ 1232  mkdir GROUND SEA AIR
+ 1233  ls
+ 1234  cd GROUND/
+ 1235  ls -al
+ 1236  mkdir Highway Railway
+ 1237  ls
+ 1238  cd ../SEA/
+ 1239  ls -al
+ 1240  pwd
+ 1241  cd ../AIR/
+ 1242  ls -la
+ 1243  cd ../GROUND/Highway/
+ 1244  pwd
+ 1245  ls -l
+ 1246  touch car motorbike bicycle
+ 1247  ls
+ 1248  echo "GROUND_vehicle 2.0 TDI" > car 
+ 1249  cat car 
+ 1250  echo "GROUND_vehicle 0.9 SI
+ 1251  echo "GROUND_vehicle 0.9 SI" > motorbike 
+ 1252  echo "GROUND_vehicle Feet" > bicycle 
+ 1253  touch amphibicar
+ 1254  vi amphibicar 
+ 1255  cat amphibicar 
+ 1256  chmod ug=rw,o=- amphibicar 
+ 1257  ls -l
+ 1258  touch clarusvehicle
+ 1259  nano clarusvehicle 
+ 1260  chmod 640 clarusvehicle 
+ 1261  ls -l
+ 1262  ls -la
+ 1263  cd ../Railway/
+ 1264  ls -al
+ 1265  touch bullet_train electric_train steam_train
+ 1266  ls
+ 1267  echo "GROUND_vehicle" > bullet_train 
+ 1268  echo "GROUND_vehicle electric" > electric_train 
+ 1269  echo "GROUND_vehicle Steam" > steam_train 
+ 1270  cd ../../SEA/
+ 1271  ls -al
+ 1272  echo "SEA_vehicle-4250 HP" > ship
+ 1273  ls
+ 1274  echo "SEA_vehicle-600 HP" > seaplane
+ 1275  cp ../GROUND/Highway/amphibicar .
+ 1276  ls
+ 1277  cp ../GROUND/Highway/clarusvehicle .
+ 1278  ls -al
+ 1279  cd ../AIR/
+ 1280  ls
+ 1281  ls -al
+ 1282  touch plane helicopter
+ 1283  echo "AIR_vehicle 2000 HP" > plane 
+ 1284  echo "AIR_vehicle 1800 HP" > helicopter  
+ 1285  ls
+ 1286  cp ../GROUND/Highway/clarusvehicle .
+ 1287  cp ../SEA/seaplane .
+ 1288  cd ~/CLARUSMOTORS/
+ 1289  sudo apt update
+ 1290  sudo apt install tree
+ 1291  tree
+ 1292  cd ..
+ 1293  rm -r CLARUSMOTORS/
+
