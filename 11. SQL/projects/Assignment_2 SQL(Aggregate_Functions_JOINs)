@@ -1,0 +1,48 @@
+1.How many tracks does each album have? Your solution should include Album id and its number of tracks sorted from highest to lowest.
+
+SELECT albums.AlbumId, COUNT(tracks.TrackId)
+FROM tracks 
+INNER JOIN albums ON albums.AlbumId = tracks.AlbumId
+GROUP BY albums.AlbumId
+ORDER BY tracks.TrackId DESC;
+
+
+2.Find the album title of the tracks. Your solution should include track name and its album title.
+
+SELECT tracks.Name, albums.Title
+FROM tracks
+INNER JOIN albums
+ON albums.AlbumId=tracks.AlbumId;
+
+
+3.Find the minimum duration of the track in each album. Your solution should include album id, album title and duration of the track sorted from highest to lowest.
+
+SELECT albums.AlbumId, MIN(Milliseconds), albums.Title
+FROM tracks INNER JOIN albums on  albums.AlbumId=tracks.AlbumId
+GROUP BY albums.AlbumId
+ORDER by MIN(Milliseconds) DESC;
+
+
+4.Find the total duration of each album. Your solution should include album id, album title and its total duration sorted from highest to lowest.
+
+SELECT albums.AlbumId, SUM(Milliseconds), albums.Title
+FROM tracks INNER JOIN albums ON albums.AlbumId = tracks.AlbumId
+GROUP BY albums.AlbumId
+ORDER BY SUM(Milliseconds) DESC;
+
+
+5.Based on the previous question, find the albums whose total duration is higher than 70 minutes. Your solution should include album title and total duration. 70*60*100=420000
+
+SELECT *
+FROM
+	(SELECT albums.AlbumId, SUM(Milliseconds) AS Total_duration, albums.Title
+	FROM tracks INNER JOIN albums ON albums.AlbumId = tracks.AlbumId
+	GROUP BY albums.AlbumId
+	ORDER BY Total_duration DESC)
+WHERE Total_duration >420000;
+
+SELECT a.Title AS Album_Title, SUM(t.Milliseconds) AS Duration
+  FROM albums a INNER JOIN tracks t ON a.AlbumId = t.AlbumId
+  GROUP BY Album_Title
+  HAVING Duration > 4200000
+  ORDER BY Duration DESC;

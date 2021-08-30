@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid red;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+span {
+    color: red;
+}
+
+#navigation ul {
+    display: flex;
+}
+
+#navigation li {
+    padding: 0 20px;
+    list-style: none;
+    font-family: "Audiowide", sans-serif;
+}
+
+body {
+    font-family: "Audiowide";
+    display: swap;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 90vh;
+    width: 100%;
+}

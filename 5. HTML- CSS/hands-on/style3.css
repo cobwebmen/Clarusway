@@ -1,0 +1,17 @@
+#firstParagraph {
+    color: crimson;
+    border:1px solid brown; 
+    padding: 5px; 
+    margin: 50px; 
+    letter-spacing: 3px; 
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+p.prg{
+    background-color: yellow;
+}
+
+p, h1 {
+    color: cornflowerblue;
+}
